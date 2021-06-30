@@ -1,0 +1,9 @@
+package BookInfor;
+
+public class JoinInfor {
+
+	public JoinInfor() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

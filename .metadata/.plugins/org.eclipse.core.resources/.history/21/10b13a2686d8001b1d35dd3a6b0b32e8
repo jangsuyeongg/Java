@@ -1,0 +1,23 @@
+import java.awt.Frame;
+
+// 컨테이너 Frame상속받아 구현하기
+public class FrameTest extends Frame{
+
+	public FrameTest() {
+		// 창의 제목
+		//setTitle("프레임생성연습중");
+		super("하위에서 제목설정");// Frame("하위에서 제목설정")	
+		// 창의 크기
+		//setSize(500,400);
+		//         x   y   w   h
+		setBounds(200,200,500,400);
+		// 창을 보여주기
+		setVisible(true);//true:보여줌, false:안보여줌
+	}
+
+	public static void main(String[] args) {
+		new FrameTest();
+
+	}
+
+}

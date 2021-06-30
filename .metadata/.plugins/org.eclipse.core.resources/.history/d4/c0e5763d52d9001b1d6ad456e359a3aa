@@ -1,0 +1,16 @@
+import java.awt.Frame;
+
+public class DigitalClock extends Frame {
+
+	public DigitalClock() {
+		Frame frm = new Frame("시계");
+		frm.setSize(200,300);
+		setTitle("시계");
+	}
+
+	public static void main(String[] args) {
+		new DigitalClock();
+
+	}
+
+}

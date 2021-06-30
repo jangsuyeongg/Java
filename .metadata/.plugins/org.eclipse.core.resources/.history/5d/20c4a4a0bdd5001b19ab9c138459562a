@@ -1,0 +1,71 @@
+package BookInfor;
+
+public class BookVO {
+	private int code;
+	private String bookName; //책이름
+	private String author; // 저자
+	private String company;//회사
+	private String rental;// 대여상태
+	private String rentaldate;//대여날짜
+	 
+
+	public BookVO() {
+		
+	}
+	public BookVO(int code, String bookName,String author,String company,String rental,String rentaldate ) {
+		this.code = code;
+		this.bookName = bookName;
+		this.author = author;
+		this.company = company;
+		this.rental = rental;
+		this.rentaldate = rentaldate;
+	}
+	public void bookPrint() {
+		System.out.printf("%d %s %s %s %s %s\n",code,bookName,author,company,rental,rentaldate);
+		//System.out.printf("%10d %12s %12s %10s %8s %12s\n",code,bookName,author,company,rental,rentaldate);
+	}
+	
+	//타이틀 출력
+	public static void titlePrint() {
+		System.out.printf("%10s %10s %10s %13s %12s %12s\n","도서코드","책이름","저자","출판사","구입상태","구입액");
+		System.out.println("==================================================================================");
+	}
+	public int getCode() {
+		return code;
+	}
+	public void setCode(int code) {
+		this.code = code;
+	}
+	public String getBookName() {
+		return bookName;
+	}
+	public void setBookName(String bookName) {
+		this.bookName = bookName;
+	}
+	public String getAuthor() {
+		return author;
+	}
+	public void setAuthor(String author) {
+		this.author = author;
+	}
+	public String getCompany() {
+		return company;
+	}
+	public void setCompany(String company) {
+		this.company = company;
+	}
+	public String getRental() {
+		return rental;
+	}
+	public void setRental(String rental) {
+		this.rental = rental;
+	}
+	public String getRentaldate() {
+		return rentaldate;
+	}
+	public void setRentaldate(String rentaldate) {
+		this.rentaldate = rentaldate;
+	}
+	
+	
+}

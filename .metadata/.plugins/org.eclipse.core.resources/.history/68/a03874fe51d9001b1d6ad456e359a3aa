@@ -1,0 +1,14 @@
+import java.awt.Frame;
+
+public class DigitalClock extends Frame {
+
+	public DigitalClock() {
+		setTitle("½Ã°è");
+	}
+
+	public static void main(String[] args) {
+		new DigitalClock();
+
+	}
+
+}

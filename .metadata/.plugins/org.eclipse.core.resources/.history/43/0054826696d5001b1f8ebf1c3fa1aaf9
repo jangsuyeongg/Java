@@ -1,0 +1,18 @@
+package BookInfor;
+
+import java.util.HashMap;
+
+public class BookDataSet {
+		public static HashMap<String, BookVO> bookList = new HashMap<String, BookVO>();
+		
+		public BookDataSet() {
+			
+		}
+		
+		public static void basicBookSet() {
+			bookList.put("그렇게 그렇게", new BookVO(1001, "그렇게 그렇게" ,"양지연","주니어김영사","구입가능","500"));
+			bookList.put("달팽이", new BookVO(1002, "달팽이" ,"김민우","웅진주니어","구입가능","500"));
+			bookList.put("집과산책", new BookVO(1003, "집과산책" ,"손현경","비밀신서","구입가능","400"));
+			bookList.put("내가모르는사이에", new BookVO(1004, "내가모르는사이에" ,"김화요","웅진주니어","구입가능","300"));
+		}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;EmainCheckEx_Ans.java&apos; to &apos;EmailCheckEx_Ans.java&apos;&#x0D;&#x0A;- Original project: &apos;java02_api&apos;&#x0D;&#x0A;- Original element: &apos;EmainCheckEx_Ans.java&apos;&#x0D;&#x0A;- Renamed element: &apos;EmailCheckEx_Ans.java&apos;" description="Rename compilation unit &apos;EmainCheckEx_Ans.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{EmainCheckEx_Ans.java" name="EmailCheckEx_Ans.java" references="false" stamp="1623735357632" version="1.0"/>
+</session>

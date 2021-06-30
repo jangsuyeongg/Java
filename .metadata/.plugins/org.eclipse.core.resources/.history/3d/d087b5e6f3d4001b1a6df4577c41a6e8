@@ -1,0 +1,24 @@
+package BookInfor;
+
+import java.util.HashMap;
+import java.util.Hashtable;
+
+public class JoinDataSet {
+	public static Hashtable<String, String> joinList = new Hashtable<String, String>();
+	
+	public JoinDataSet() {
+	}
+
+	public static void basicJoinSet() {
+		joinList.put("Àå¼ö¿µ","1234");
+	
+	}
+	
+
+}
+	
+	
+	
+	
+	
+

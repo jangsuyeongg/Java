@@ -1,0 +1,27 @@
+import java.awt.GridLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+//								default : BorderLayout
+public class JFrameTest extends JFrame {
+
+	public JFrameTest() {
+		//BorderLayout을 GridLayout으로 변경하기
+		GridLayout layout = new GridLayout(3,2);
+		setLayout(layout);
+		
+		JButton btn1 = new JButton("버튼1");
+		add(btn1);
+		
+		setSize(500,500);
+		setVisible(true);
+		//프로그램이 종료되면 자원해제하거나, 프로그램을 종료할수없도록 설정.......
+		//DISPOSE_ON_CLOSE : 프로그램종료시 자원을 해제하라
+		//DO_NOTHING_ON_CLOSE: 닫기가 수행되지 않는다.
+		setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+		//setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
+	}
+	public static void main(String[] args) {
+		new JFrameTest();
+	}
+}

@@ -1,0 +1,21 @@
+package BookInfor;
+
+import java.util.HashMap;
+
+public class BookDataSet {
+		public static HashMap<String, BookVO> bookList = new HashMap<String, BookVO>();
+		
+		public BookDataSet() {
+			
+		}
+		
+		public static void basicBookSet() {
+			bookList.put("그렇게 그렇게", new BookVO(1001,"그렇게 그렇게","요시타케 신스케","주니어김영사","대여가능"," "));
+			
+			
+		}
+		
+		
+	
+
+}

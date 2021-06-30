@@ -1,0 +1,25 @@
+import java.awt.Frame;
+import java.util.Calendar;
+
+import javax.swing.JFrame;
+
+public class DigitalClock extends JFrame {
+		Frame frm = new Frame("시계");
+	public DigitalClock() {
+		
+		setSize(500,200);
+		setVisible(true);
+		
+		setTitle("시계");
+		
+		
+		Calendar date = Calendar.getInstance();
+		System.out.println(date.HOUR);
+	}
+
+	public static void main(String[] args) {
+		new DigitalClock();
+		
+	}
+
+}

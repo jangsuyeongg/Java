@@ -1,0 +1,18 @@
+package BookInfor;
+
+public class JoinInfor {
+	private String id;
+	private String password;
+	
+	
+	public j() {
+		
+	}
+
+	public JoinVO(String id, String password) {
+		
+	}
+	
+	
+	
+}

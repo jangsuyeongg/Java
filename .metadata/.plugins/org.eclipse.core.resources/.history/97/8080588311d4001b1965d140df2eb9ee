@@ -1,0 +1,19 @@
+import BookInfor.BookVO;
+
+public class Login {
+	
+
+	public Login() {
+		
+	}
+	
+	public void join() {
+		BookVO vo = new BookVO();
+		
+		vo.setId(inData("아이디"));
+		vo.setPwd(inData("비밀번호"));
+		
+	}
+
+	
+}
