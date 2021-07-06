@@ -1,9 +1,0 @@
-package BookInfor;
-
-public class JoinDataSet {
-
-	public JoinDataSet() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

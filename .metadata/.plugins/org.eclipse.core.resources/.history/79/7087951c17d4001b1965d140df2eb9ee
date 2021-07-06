@@ -1,9 +1,0 @@
-package BookInfor;
-
-public class join {
-
-	public join() {
-		
-	}
-
-}

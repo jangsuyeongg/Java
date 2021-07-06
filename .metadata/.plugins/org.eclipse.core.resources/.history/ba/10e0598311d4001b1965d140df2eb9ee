@@ -1,9 +1,0 @@
-package BookInfor;
-
-public class JoinVO {
-
-	public JoinVO() {
-		// TODO Auto-generated constructor stub
-	}
-
-}
