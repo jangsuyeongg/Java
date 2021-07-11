@@ -12,19 +12,18 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 public class CalendarEx extends JFrame implements ActionListener{
-	JPanel centerPanel = new JPanel();
+	Calendar now = Calendar.getInstance();
+	JPanel centerPanel = new JPanel(new GridLayout(1,7));
 	JPanel pane = new JPanel();
 	JComboBox<Integer> c1 = new JComboBox<Integer>();
 	JComboBox<Integer> c2 = new JComboBox<Integer>();
 	Button btn = new Button("¢¸");
 	Button btn2 = new Button("¢º");
 
-	Calendar now = Calendar.getInstance();
-	int thisYear = now.get(Calendar.YEAR);
-	int thisMonth = now.get(Calendar.MONTH);
+	
+
 	
 	
-	JLabel lbl = new JLabel("´Þ·Â", JLabel.CENTER);
 	public CalendarEx() {
 		setTitle("Calendar");
 		add(BorderLayout.NORTH,pane);
@@ -47,7 +46,7 @@ public class CalendarEx extends JFrame implements ActionListener{
 		
 		
 		add(centerPanel);
-		centerPanel.setLayout(new GridLayout(7, 7));
+		
 		
 	}
 	
@@ -93,15 +92,15 @@ public class CalendarEx extends JFrame implements ActionListener{
 	public void inputYearBox() {
 		pane.add(c1);
 	
-		for(int i=5; i>0; i--) {
-			c1.addItem(thisYear-i);
+	//	for(int i=5; i>0; i--) {
+		//	c1.addItem(thisYear-i);
 		}
-		c1.addItem(thisYear);
-		for(int i=1; i<6; i++) {
-			c1.addItem(thisYear+i);
-		}
-		c1.setSelectedItem(thisYear);
-	}
+		//c1.addItem(thisYear);
+		//for(int i=1; i<6; i++) {
+			//c1.addItem(thisYear+i);
+		//}
+		//c1.setSelectedItem(thisYear);
+	//}
 	
 	public void inputMonthBox() {
 	
@@ -112,13 +111,8 @@ public class CalendarEx extends JFrame implements ActionListener{
 		}
 			c2.addItem(month++);
 		}
-		
-
-
 	public void actionPerformed(ActionEvent ae) {
-	
-}
-	
+	}
 	public static void main(String[] args) {
 		new CalendarEx();
 

@@ -8,6 +8,7 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="flow"/>
 			<item value="panel"/>
 			<item value="implements"/>
 			<item value="search"/>
@@ -15,7 +16,6 @@
 			<item value="inData"/>
 			<item value="dataset"/>
 			<item value="allJoinList"/>
-			<item value="comcat"/>
 		</list>
 		<list key="replacehistory">
 		</list>
