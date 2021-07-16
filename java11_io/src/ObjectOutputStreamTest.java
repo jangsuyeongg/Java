@@ -21,10 +21,7 @@ public class ObjectOutputStreamTest {
 			
 		}
 	}
-
 	public static void main(String[] args) {
 		new ObjectOutputStreamTest();
-
 	}
-
 }

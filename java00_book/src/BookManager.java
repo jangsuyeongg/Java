@@ -219,7 +219,7 @@ public class BookManager {
 				}
 				JoinVO wanted = JoinDataSet.joinList.get(realId); // ID가 일치하는 VO의 정보
 		
-				// ID가 같은 VO의 비번 받아오기
+				// ID가 같은 VO의 비번 받아오기4
 				System.out.print("비밀번호=");
 				String password = scan.nextLine(); // 받아온 비번
 				String realPass = wanted.getPassword(); // 실제 비번

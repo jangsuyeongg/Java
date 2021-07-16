@@ -19,7 +19,5 @@ public class ObjectInputStreamTest {
 
 	public static void main(String[] args) {
 		new ObjectInputStreamTest();
-
 	}
-
 }

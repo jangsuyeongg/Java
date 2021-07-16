@@ -16,7 +16,6 @@ public class CanvasAdapterTest extends MouseAdapter{
 			mc.x = me.getX();
 			mc.y = me.getY();
 			mc.repaint();
-			
 		}
 	}
 }
