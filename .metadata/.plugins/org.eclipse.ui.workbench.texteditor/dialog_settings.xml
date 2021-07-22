@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="event"/>
+		<item key="selection" value="excel"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="search"/>
+			<item value="table"/>
+			<item value="text"/>
+			<item value="excel"/>
+			<item value="&quot;&quot;"/>
+			<item value="JTextField"/>
 			<item value="ta"/>
 			<item value="flow"/>
-			<item value="panel"/>
-			<item value="implements"/>
-			<item value="search"/>
-			<item value="basicBookSet()"/>
-			<item value="inData"/>
-			<item value="dataset"/>
 		</list>
 		<list key="replacehistory">
 		</list>

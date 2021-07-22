@@ -4,4 +4,4 @@ editor.color.procInstr=103,140,177
 editor.color.string=199,141,155
 editor.color.tag=103,140,177
 editor.color.xmlComment=125,140,147
-overriddenByCSS=,editor.color.tag,editor.color.default,editor.color.procInstr,editor.color.xmlComment,editor.color.string,
+overriddenByCSS=,editor.color.string,editor.color.tag,editor.color.default,editor.color.procInstr,editor.color.xmlComment,
