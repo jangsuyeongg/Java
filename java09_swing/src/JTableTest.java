@@ -79,6 +79,7 @@ public class JTableTest extends JFrame{
 	//마우스 이벤트 내부클래스
 	public class MyEvent extends MouseAdapter{
 		//재오버라이딩
+		@Override
 		public void mouseClicked(MouseEvent me) {
 			//1. 버튼의 종류(1:왼쪽, 2 가운데, 3: 오른쪽)
 			int eventBtn = me.getButton();

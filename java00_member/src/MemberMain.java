@@ -47,14 +47,14 @@ public class MemberMain extends JFrame implements ActionListener{
 		JTable memberList;
 		JScrollPane sp;
 			
-		//JFrame - South
-		JPanel southPane = new JPanel();
-			JLabel searchLbl = new JLabel("이름");
-			DefaultComboBoxModel<String> searchModel = new DefaultComboBoxModel<String>();
-			JComboBox<String> searchkey = new JComboBox<String>(searchModel);
+	//JFrame - South
+	JPanel southPane = new JPanel();
+		JLabel searchLbl = new JLabel("이름");
+		DefaultComboBoxModel<String> searchModel = new DefaultComboBoxModel<String>();
+		JComboBox<String> searchkey = new JComboBox<String>(searchModel);
 			
-			JTextField searchWord = new JTextField(15);
-			JButton searchBtn = new JButton("Search");
+		JTextField searchWord = new JTextField(15);
+		JButton searchBtn = new JButton("Search");
 			
 	public MemberMain() {
 		super("회원관리시스템");
@@ -132,10 +132,8 @@ public class MemberMain extends JFrame implements ActionListener{
 		searchModel.addElement("주소");
 		southPane.add(searchkey);//콤보박스
 		
-		
 		southPane.add(searchWord);
-		southPane.add(searchBtn);
-		
+		southPane.add(searchBtn);		
 		searchBtn.addActionListener(this);
 	}
 	public void actionPerformed(ActionEvent ae) {
