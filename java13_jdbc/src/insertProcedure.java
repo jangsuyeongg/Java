@@ -22,17 +22,14 @@ public class insertProcedure extends DBConnection{
 			}else {
 				System.out.println("추가실패");
 			}
-			
 		}catch(Exception e) {
 			e.printStackTrace();
 		}finally {
 			dbClose();
 		}
 	}
-
 	public static void main(String[] args) {
 		new insertProcedure();
-
 	}
 
 }
